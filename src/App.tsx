@@ -1,6 +1,6 @@
 import "./App.css";
 import { ThemeProvider, Button } from "@mui/material";
-import theme, { temaVerde } from "./themes/main";
+import theme from "./themes/main";
 
 function App() {
   return (
@@ -18,13 +18,6 @@ function App() {
         >
           Learn React
         </a>
-        <ThemeProvider theme={temaVerde}>
-          <Button variant="contained" sx={{ backgroundColor: "primary.light" }}>
-            Click
-          </Button>
-          <Button variant="contained">Click</Button>
-          <Button variant="contained">Click</Button>
-        </ThemeProvider>
 
         <Button variant="contained">Click</Button>
       </header>
