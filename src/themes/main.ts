@@ -6,4 +6,10 @@ const theme = createTheme({
   },
 });
 
+export const temaVerde = createTheme({
+  palette: {
+    primary: { main: "#008000" },
+  },
+});
+
 export default theme;
