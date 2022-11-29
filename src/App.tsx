@@ -1,5 +1,6 @@
 import "./App.css";
-import { Button } from "@mui/material";
+import { ThemeProvider, Button } from "@mui/material";
+import theme from "./themes/main";
 
 function App() {
   return (
