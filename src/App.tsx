@@ -18,8 +18,14 @@ const BoxStyled = styled(Box)`
 function App() {
   return (
     <BoxContainer>
-      <BoxStyled sx={{ bgcolor: "primary.main" }} />
-      <BoxStyled sx={{ bgcolor: "secondary.main" }} />
+      <BoxStyled
+        sx={{
+          bgcolor: { xs: "primary.main", sm: "secondary.main" },
+        }}
+      />
+      <BoxStyled
+        sx={{ bgcolor: { xs: "secondary.main", sm: "primary.main" } }}
+      />
     </BoxContainer>
   );
 }
