@@ -13,6 +13,7 @@ const theme = createTheme({
       fontWeight: "bold",
     },
   },
+  spacing: 8,
 });
 
 export default theme;
