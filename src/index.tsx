@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { ThemeProvider } from "@emotion/react";
+import { ThemeProvider } from "@mui/material";
 import theme from "./themes/main";
 
 const root = ReactDOM.createRoot(

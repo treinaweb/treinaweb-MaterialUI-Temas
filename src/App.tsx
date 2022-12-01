@@ -1,5 +1,5 @@
 import "./App.css";
-import { Button, Typography, styled, Box } from "@mui/material";
+import { Button, Typography, styled, Box, Link } from "@mui/material";
 
 const BoxContainer = styled(Box)`
   width: 100vw;
@@ -18,14 +18,10 @@ const BoxStyled = styled(Box)`
 function App() {
   return (
     <BoxContainer>
-      <BoxStyled
-        sx={{
-          bgcolor: { xs: "primary.main", sm: "secondary.main" },
-        }}
-      />
-      <BoxStyled
-        sx={{ bgcolor: { xs: "secondary.main", sm: "primary.main" } }}
-      />
+      <Button variant="outlined" color="secondary" disableRipple={false}>
+        BUTTON
+      </Button>
+      <Link>Link</Link>
     </BoxContainer>
   );
 }

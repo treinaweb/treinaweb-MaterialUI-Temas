@@ -23,6 +23,54 @@ const theme = createTheme({
       xl: 1200,
     },
   },
+  components: {
+    MuiButton: {
+      defaultProps: {
+        disableRipple: true,
+        color: "secondary",
+      },
+      styleOverrides: {
+        root: {
+          backgroundColor: "#ff0000",
+          ":hover": {
+            backgroundColor: "#f012ff",
+          },
+        },
+      },
+      variants: [
+        {
+          props: {
+            variant: "contained",
+          },
+          style: {
+            backgroundColor: "blue",
+            ":hover": {
+              backgroundColor: "red",
+            },
+          },
+        },
+        {
+          props: {
+            variant: "outlined",
+            color: "secondary",
+          },
+          style: {
+            padding: "24px 40px",
+          },
+        },
+      ],
+    },
+    MuiLink: {
+      defaultProps: {
+        underline: "none",
+      },
+      styleOverrides: {
+        root: {
+          cursor: "pointer",
+        },
+      },
+    },
+  },
 });
 
 export default theme;
