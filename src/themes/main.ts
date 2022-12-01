@@ -1,10 +1,6 @@
 import { createTheme } from "@mui/material";
 
-const theme = createTheme({
-  palette: {
-    primary: { main: "#ff0000" },
-    secondary: { main: "#008000" },
-  },
+const defaultTheme = createTheme({
   typography: {
     subtitle1: {
       fontWeight: 100,
@@ -13,7 +9,6 @@ const theme = createTheme({
       fontWeight: "bold",
     },
   },
-  spacing: 8,
   breakpoints: {
     values: {
       xs: 0,
@@ -23,20 +18,9 @@ const theme = createTheme({
       xl: 1200,
     },
   },
+  spacing: 8,
   components: {
     MuiButton: {
-      defaultProps: {
-        disableRipple: true,
-        color: "secondary",
-      },
-      styleOverrides: {
-        root: {
-          backgroundColor: "#ff0000",
-          ":hover": {
-            backgroundColor: "#f012ff",
-          },
-        },
-      },
       variants: [
         {
           props: {
@@ -49,6 +33,29 @@ const theme = createTheme({
             },
           },
         },
+      ],
+    },
+    MuiLink: {
+      defaultProps: {
+        underline: "none",
+      },
+    },
+  },
+});
+
+const theme = createTheme(defaultTheme, {
+  palette: {
+    primary: { main: "#ff0000" },
+    secondary: { main: "#008000" },
+  },
+  components: {
+    MuiButton: {
+      defaultProps: {
+        disableRipple: true,
+        color: "secondary",
+      },
+      variants: [
+        ...(defaultTheme.components?.MuiButton?.variants ?? []),
         {
           props: {
             variant: "outlined",
@@ -61,9 +68,6 @@ const theme = createTheme({
       ],
     },
     MuiLink: {
-      defaultProps: {
-        underline: "none",
-      },
       styleOverrides: {
         root: {
           cursor: "pointer",
