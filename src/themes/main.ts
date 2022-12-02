@@ -2,7 +2,7 @@ import { createTheme } from "@mui/material";
 
 const defaultTheme = createTheme({
   typography: {
-    fontFamily: ["Roboto", "Zen Dots", "sans-serif"].join(","),
+    fontFamily: ["Zen Dots", "Roboto", "sans-serif"].join(","),
     subtitle1: {
       fontWeight: 100,
     },
@@ -21,6 +21,15 @@ const defaultTheme = createTheme({
   },
   spacing: 8,
   components: {
+    MuiCssBaseline: {
+      styleOverrides: `
+        @font-face{
+          font-family: "Zen Dots";
+          font-style: normal;
+          src: local('Raleway'), url(/ZenDots-Regular.ttf) format(truetype);
+        }
+      `,
+    },
     MuiButton: {
       variants: [
         {
