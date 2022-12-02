@@ -42,7 +42,11 @@ export default function Header() {
           }}
         >
           {links.map((nome) => {
-            return <Link href="#">{nome}</Link>;
+            return (
+              <Link key={nome} href="#">
+                {nome}
+              </Link>
+            );
           })}
         </Box>
         <IconButton
@@ -74,7 +78,11 @@ export default function Header() {
               style={{ width: "150px", margin: "16px 0 24px 0" }}
             />
             {links.map((nome) => {
-              return <Link href="#">{nome}</Link>;
+              return (
+                <Link key={nome} href="#">
+                  {nome}
+                </Link>
+              );
             })}
           </Box>
         </Drawer>
