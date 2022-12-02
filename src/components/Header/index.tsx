@@ -6,8 +6,10 @@ import {
   IconButton,
   Icon,
   Drawer,
+  Container,
 } from "@mui/material";
 import { useState } from "react";
+import ToogleThemeButton from "../TogleTheme";
 
 export default function Header() {
   const [openDrawer, setOpenDrawer] = useState(false);
@@ -21,7 +23,7 @@ export default function Header() {
   ];
   return (
     <AppBar color="inherit">
-      <Toolbar>
+      <Toolbar component={Container}>
         <img
           src="/tw-express.png"
           alt="logo"
@@ -36,6 +38,7 @@ export default function Header() {
             },
             justifyContent: "space-between",
             gap: 2,
+            mr: 2,
           }}
         >
           {links.map((nome) => {
@@ -50,6 +53,7 @@ export default function Header() {
         >
           <Icon>menu</Icon>
         </IconButton>
+        <ToogleThemeButton />
         <Drawer
           open={openDrawer}
           onClick={() => setOpenDrawer(false)}

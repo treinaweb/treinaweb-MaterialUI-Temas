@@ -3,12 +3,10 @@ import {
   Dispatch,
   PropsWithChildren,
   SetStateAction,
-  useEffect,
   useState,
 } from "react";
 import { Theme, createTheme, ThemeProvider } from "@mui/material";
 import themeLight from "../theme/theme-light";
-import themeDark from "../theme/theme-dark";
 
 interface ThemeDataContextInterface {
   ThemeState: Theme;
