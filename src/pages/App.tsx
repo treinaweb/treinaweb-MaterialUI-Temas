@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import { styled, Box, Typography, Button, Container } from "@mui/material";
+import Footer from "../components/Footer";
 
 const BackgroundImgeStyled = styled("div")`
   height: 100vh;
@@ -53,6 +54,7 @@ function App() {
           </Box>
         </BoxContainer>
       </Container>
+      <Footer />
     </div>
   );
 }
