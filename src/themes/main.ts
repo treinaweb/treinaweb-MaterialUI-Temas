@@ -2,6 +2,7 @@ import { createTheme } from "@mui/material";
 
 const defaultTheme = createTheme({
   typography: {
+    fontFamily: ["Roboto", "Zen Dots", "sans-serif"].join(","),
     subtitle1: {
       fontWeight: 100,
     },
