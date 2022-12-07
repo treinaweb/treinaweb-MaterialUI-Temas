@@ -1,46 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aula | Video | Commit | Link
+------ | ------ | ------ | ------
+Aula 05 | Vídeo 19 - Criando Header | 05:19 - Criando Header | [Download](https://github.com/arielsardinha/teste/archive/10870227b70312dea300820aa3cbac49ae15599a.zip)
+Aula 05 | Vídeo 20 - Configurando tema parão | 05:20 - Configurando tema parão | [Download](https://github.com/arielsardinha/teste/archive/2ccc8137fcd8e8490549b5b21b9b5049a2f4f144.zip)
+Aula 05 | Vídeo 21 - Definindo tema claro e escuro | 05:21 - Definindo tema claro e escuro | [Download](https://github.com/arielsardinha/teste/archive/b571230a6f44d0323ca90c0a40f41a4ddc8f60ea.zip)
+Aula 05 | Vídeo 22 - Criando contexto para acessar o tema | 05:22 - Criando contexto para acessar o tema | [Download](https://github.com/arielsardinha/teste/archive/6b09fca0d3ceb1f19e20dfd03586e4f5891ce11d.zip)
+Aula 05 | Vídeo 23 - Aplicando troca do tema automático | 05:23 - Aplicando troca do tema automático | [Download](https://github.com/arielsardinha/teste/archive/8e915d42b2e4e09e61b4a9aa7a23f7c7b88adb46.zip)
+Aula 05 | Vídeo 25 - Criando Footer | 05:25 - Criando Footer | [Download](https://github.com/arielsardinha/teste/archive/d10e2fecbfbcbf696727ef94cd1b904d3f717357.zip)
+Aula 05 | Vídeo 24 - Criando tela home | 05:24 - Criando tela home | [Download](https://github.com/arielsardinha/teste/archive/5a3db3b86b600395d8113a577571d58481e6a96d.zip)
+Aula 05 | Vídeo 25 - Criando Footer | 05:25 - Criando Footer | [Download](https://github.com/arielsardinha/teste/archive/360281bbc4e74d26a3cb86abdd1973f8b4a2d24d.zip)
