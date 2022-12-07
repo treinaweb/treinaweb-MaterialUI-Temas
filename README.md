@@ -1,46 +1,14 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aula | Video | Commit | Link
+------ | ------ | ------ | ------
+Aula 02 | Vídeo 03 - Entendendo o ThemeProvider | 02:03 - Entendendo o ThemeProvider | [Download](https://github.com/arielsardinha/teste/archive/1161960823b6aade257899021edc775021b7fc25.zip)
+Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/514f7f3dec971c1aa07b7e289f72e288ebd661aa.zip)
+Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/c3c62e74ee2c7188251d8cd7a6681ee4ec9ee849.zip)
+Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/efe404b7efb9d32c0625377732f5f93539ef71d3.zip)
+Aula 02 | Vídeo 05 - Tipografia | 02:05 - Tipografia | [Download](https://github.com/arielsardinha/teste/archive/e107cd2f210592cc7853532926eb86263ef209fa.zip)
+Aula 02 | Vídeo 06 - Espaçamento | 02:06 - Espaçamento | [Download](https://github.com/arielsardinha/teste/archive/bf9df00a29c3673d115968f8781d638876bfacdd.zip)
+Aula 02 | Vídeo 07 - Pontos de interrupção | 02:07 - Pontos de interrupção | [Download](https://github.com/arielsardinha/teste/archive/48b23e7bd508d008d41ae24e48a50cc5b69a8086.zip)
+Aula 02 | Vídeo 08 - Componentes | 02:08 - Componentes | [Download](https://github.com/arielsardinha/teste/archive/20ac13205421d7e37981a80994fa68e50c221118.zip)
+Aula 02 | Vídeo 09 - Mesclando temas | 02:09 - Mesclando temas | [Download](https://github.com/arielsardinha/teste/archive/dffde78a22975a5087bdab09879114f2faed4db3.zip)
+Aula 04 | Vídeo 15 - Aplicando família de fontes | 04:15 - Aplicando família de fontes | [Download](https://github.com/arielsardinha/teste/archive/9343f94e8f68126ec7d0171fa1b7574c30e38f15.zip)
+Aula 04 | Vídeo 16 - Adicionando fontes personalizadas | 04:16 - Adicionando fontes personalizadas | [Download](https://github.com/arielsardinha/teste/archive/2f4d65d1af7ea4f403921a366a5b8aca20559434.zip)
+Aula 04 | Vídeo 17 - FontSize responsiva | 04:17 - FontSize responsiva | [Download](https://github.com/arielsardinha/teste/archive/ec12947a86b7e4eae36fb0d147a7189580cb6ce0.zip)
