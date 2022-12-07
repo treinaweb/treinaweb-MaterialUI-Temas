@@ -1,9 +1,7 @@
 Aula | Video | Commit | Link
 ------ | ------ | ------ | ------
 Aula 02 | Vídeo 03 - Entendendo o ThemeProvider | 02:03 - Entendendo o ThemeProvider | [Download](https://github.com/arielsardinha/teste/archive/1161960823b6aade257899021edc775021b7fc25.zip)
-Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/514f7f3dec971c1aa07b7e289f72e288ebd661aa.zip)
-Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/c3c62e74ee2c7188251d8cd7a6681ee4ec9ee849.zip)
-Aula 03 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/efe404b7efb9d32c0625377732f5f93539ef71d3.zip)
+Aula 02 | Vídeo 04 - Paleta de cores | 03:04 - Paleta de cores | [Download](https://github.com/arielsardinha/teste/archive/efe404b7efb9d32c0625377732f5f93539ef71d3.zip)
 Aula 02 | Vídeo 05 - Tipografia | 02:05 - Tipografia | [Download](https://github.com/arielsardinha/teste/archive/e107cd2f210592cc7853532926eb86263ef209fa.zip)
 Aula 02 | Vídeo 06 - Espaçamento | 02:06 - Espaçamento | [Download](https://github.com/arielsardinha/teste/archive/bf9df00a29c3673d115968f8781d638876bfacdd.zip)
 Aula 02 | Vídeo 07 - Pontos de interrupção | 02:07 - Pontos de interrupção | [Download](https://github.com/arielsardinha/teste/archive/48b23e7bd508d008d41ae24e48a50cc5b69a8086.zip)
